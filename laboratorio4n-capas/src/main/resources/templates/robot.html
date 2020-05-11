@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Seguridad</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="formulario">
+		<form method="post" th:action="@{/seguridad}" th:object="${robot}">		
+			<label >Marcar solo si eres un robot: </label>
+			<input type="radio" th:field="*{soyRobot}" th:value="${false}">
+			<span th:errors="*{soyRobot}" style="color: #FD8884"></span>
+			<br>
+			<input type="submit" value="Aceptar" class="boton-denegar">
+			<a href="/producto">Regresar</a>
+		</form>
+		
+	</div>
+</body>
+</html>

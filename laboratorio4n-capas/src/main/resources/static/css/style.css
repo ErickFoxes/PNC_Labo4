@@ -1,0 +1,51 @@
+h1{
+	color: #1D1D1C;
+	size:15px;
+}
+a{
+	border-radius:5px;
+	background:#FFD275;
+	color: #FFF;
+	border:0px;
+	margin: 5px 10px 5px 10px;
+	padding: 10px;
+}
+
+.textbox{
+	border-radius:5px;
+	background:#EFEFEF;
+	color: #2a4849;
+	border:1px;
+	width: 85%;
+	height: 30px;
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+}
+.formulario{
+	margin-top: 10%;
+	text-align:center;
+	display:block;
+  	margin-left: auto;
+  	margin-right: auto;
+	padding:20px;
+	border-radius:10px;
+	background:#704C3A;
+	width: 35%;
+}
+
+.boton-aceptar{
+	border-radius:5px;
+	background:#6CB987;
+	color: #FFF;
+	border:0px;
+	margin: 5px 10px 5px 10px;
+	padding: 10px;
+}
+.boton-denegar{
+	border-radius:5px;
+	background:#FC5157;
+	color: #FFF;
+	border:0px;
+	margin: 5px 10px 5px 10px;
+	padding: 10px;
+}
